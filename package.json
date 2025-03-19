@@ -46,5 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:4400/api"
+  "proxy": "https://booking-app-api-production-8253.up.railway.app/api"
 }
