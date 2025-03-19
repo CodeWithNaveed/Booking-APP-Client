@@ -2,7 +2,7 @@ import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("/hotels?featured=true&limit=4");
+  const { data, loading, error } = useFetch("https://booking-app-api-production-8253.up.railway.app/api/hotels?featured=true&limit=4");
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
