@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navContainer">
-        <Link to="/" className="link">
+        <Link to="https://booking-app-api-production-8253.up.railway.app/api/" className="link">
           <span className="logo">BookingApp-clone</span>
         </Link>
 
@@ -26,7 +26,7 @@ const Navbar = () => {
         ) : (
           <div className="navItems">
             <button className="navButton">Register</button>
-            <Link to="/login" className="link">
+            <Link to="https://booking-app-api-production-8253.up.railway.app/api/login" className="link">
               <button className="navButton">Login</button>
             </Link>
           </div>
