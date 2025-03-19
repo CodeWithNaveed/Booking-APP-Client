@@ -62,7 +62,7 @@ const Reserve = ({ setOpen, hotelId }) => {
         })
       );
       setOpen(false);
-      navigate("https://booking-app-api-production-8253.up.railway.app/api/");
+      navigate("/");
     } catch (err) {}
   };
   return (
