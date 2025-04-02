@@ -25,7 +25,9 @@ const Navbar = () => {
           </span>
         ) : (
           <div className="navItems">
-            <button className="navButton">Register</button>
+            <a href="https://booking-app-admin-chi.vercel.app/login" className="link">
+              <button className="navButton">Register</button>
+            </a>
             <Link to="/login" className="link">
               <button className="navButton">Login</button>
             </Link>
